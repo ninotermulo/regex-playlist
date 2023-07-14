@@ -8,6 +8,6 @@ const patterns = {
 
 inputs.forEach((input) => {
     input.addEventListener('keyup', (e) => {
-        console.log(e.target.attribute.name.value);
+        console.log(e.target.attributes.name.value);
     });
 });
